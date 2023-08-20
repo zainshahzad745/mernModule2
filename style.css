@@ -1,0 +1,145 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+
+#header{
+    width: 100%;
+    height: 100%;
+}
+
+#mainDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(125, 126, 126);
+    
+}
+#cardContainer{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(173, 173, 173, 0.144);
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    margin-top: 2.5%;
+    margin-left: 8.5%;
+    height: 200%;
+
+    
+}
+
+#up{
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+}
+
+#down{
+
+    width: 100%;
+    height: 85%;
+    display: flex;
+}
+
+#customers{
+    width: 100%;
+    height: 10%;
+}
+
+#mainCard{
+    margin-top: 1%;
+    margin-left: 1%;
+
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+#head{
+    width: 100%;
+    height: 10%;
+    border-bottom: #b2b2b22d solid 1px;
+    /* background-color: rgb(249, 0, 0); */
+}
+
+#body{
+
+    width: 100%;
+    height: 75%;
+    background-color: rgb(255, 255, 255);
+}
+
+#lower{
+
+    width: 100%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pic{
+
+    width: 140px;
+    height: 140px;
+    background-image: url("https://scontent-mct1-1.xx.fbcdn.net/v/t39.30808-6/297151526_558580782677071_3623255088645399755_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEZfUIEVsOh_9-62zIHtDqaDdvbIcC8NQwN29shwLw1DGh1QqYAXF41hloqniBOxy1IHF6c_4AbqE0dYIMTVfGK&_nc_ohc=43-mY7FyPLMAX9HyQ6X&_nc_ht=scontent-mct1-1.xx&oh=00_AfBoHtCiDxmfGzise-vzr2xXodqUMxdKDv4s_Za4DZ_QJw&oe=64E5DF76");
+    background-size: cover;
+    background-attachment:center;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+#body h4{
+
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 5%; */
+}
+
+
+#lowerLeft{
+    width: 20%;
+    height: 100%;
+    margin-left: 5%;
+    /* background-color: azure; */
+}
+
+#lowerLeft button{
+
+    background-color: #60b7fd;
+    width: 100px;
+    height: 30px;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+#lowerRight{
+
+    width: 40%;
+    height: 100%;
+    background-image: url(icons.PNG);
+    margin-top: 3%;
+    
+    background-size: 70% 50%;
+    background-attachment:center;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+}
